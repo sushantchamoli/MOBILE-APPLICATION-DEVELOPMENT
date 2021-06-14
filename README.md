@@ -17,6 +17,11 @@ You need to keep all of your code inside same directory you created above. Name 
 
 
 
+Remember,
+You have to send the pull request only when you have uploaded your all answers into your folder!!!!!
+
+
+
 Timings:
 
 Time to code : 9am to 10:15am
