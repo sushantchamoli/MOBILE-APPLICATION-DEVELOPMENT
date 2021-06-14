@@ -13,7 +13,7 @@ Your directory should have following format - FirstName_Last_Name_UniversityRoll
 WARNING - Keeping your directory inside any another directory which is not designated for you might lead in to non evaluation of your code, so please make sure you are pushing the code to correct directory in a format as instructed here.
 
 
-You need to keep all of your code inside same directory you created above. In case, solution of a question have multiple files (Ex. hello.html, hello.js, hello.css etc.), you can create separate directories for each question which should be named as Q1, Q2 etc. It will help you to manage your code efficiently without messing it up with files from other questions.
+You need to keep all of your code inside same directory you created above. Name your files like : Q1, Screenshot-Q1 , Q2, Screenshot-Q2 etc.
 
 
 
