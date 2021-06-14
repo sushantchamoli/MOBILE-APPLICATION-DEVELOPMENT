@@ -18,7 +18,8 @@ You need to keep all of your code inside same directory you created above. Name 
 
 
 Remember,
-You have to send the pull request only when you have uploaded your all answers into your folder!!!!!
+1) You have to send the pull request only when you have uploaded your all answers into your folder!!!!!
+2) Also, If by any chance you get to delete any folder, then again fork the repository and then start with it all over again
 
 
 
