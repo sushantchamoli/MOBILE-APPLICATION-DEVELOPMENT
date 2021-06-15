@@ -4,29 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     tools:context=".MainActivity2">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="115dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="143dp"
-        android:layout_marginBottom="86dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+    <ImageView
+        android:layout_width="150dp"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:id="@+id/img"
+        android:layout_height="150dp"/>
+
+
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="108dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="111dp"
-        android:layout_marginBottom="424dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="India"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="20sp"
+        android:textSize="40sp"
+        android:layout_margin="20dp"
+        app:layout_constraintTop_toBottomOf="@id/img"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textStyle="bold"
+        android:id="@+id/text_country"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="India"
+        android:padding="12dp"
+        android:gravity="center"
+        android:text="20sp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@id/text_country"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        android:id="@+id/text_country_data"
+        android:textColor="@color/black"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
