@@ -14,17 +14,14 @@ import java.util.Collections;
 
 public class MyService extends Service {
 
-    /**
-     * Name: Arvind Singh
-     * RollNo: 1018451
-     */
+    //ankur painuly:1018444
 
     private IBinder myBinder = new MyBinder();
     private boolean isRandomGeneratorFlag = false;
     private int randomNumber;
     private final int START = 1;
     private final int END = 10;
-
+/--------------------------------
 
     class MyBinder extends Binder {
         MyService getService()
@@ -76,7 +73,7 @@ public class MyService extends Service {
 
         }
     }
-
+/-------------------
     public int getRandomNumber()
     {
         return randomNumber;
