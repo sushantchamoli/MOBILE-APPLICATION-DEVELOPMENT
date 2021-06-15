@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:foreground="?android:selectableItemBackground"
+    android:layout_margin="8dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="India"
+            android:padding="12dp"
+            android:gravity="center"
+            android:text="15sp"
+            android:textStyle="bold"
+            android:id="@+id/text_country"
+            android:textColor="@color/black"
+            />
+
+
+</androidx.cardview.widget.CardView>
