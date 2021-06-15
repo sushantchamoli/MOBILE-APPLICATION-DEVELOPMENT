@@ -39,12 +39,12 @@ public class MainActivity extends AppCompatActivity {
         textView = (TextView) findViewById(R.id.input_text);
         textView2 = (TextView) findViewById(R.id.output_text);
         listener();
-        list.add(23);
+        list.add(20;
         list.add(9);
-        list.add(21);
-        list.add(92);
-        list.add(79);
-        list.add(35);
+        list.add(5);
+        list.add(40);
+        list.add(5);
+        list.add(68)
 
         String str = "Input Array:  ";
         for(Integer temp: list)
