@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         button= findViewById(R.id.button);
-        name=findViewById(R.id.editTextTextPersonName);
+        name=findViewById(R.id.editTextTextName);
         email=findViewById(R.id.editTextTextEmailAddress);
         age=findViewById(R.id.editTextNumber);
         password=findViewById(R.id.editTextTextPassword);
