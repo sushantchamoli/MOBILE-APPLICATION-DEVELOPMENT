@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<RelativeLayout tools:context=".MainActivity" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/input_text" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:textSize="25sp" android:hint="Input Array is"/>
+
+<TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/output_text" android:layout_marginTop="10dp" android:layout_centerHorizontal="true" android:textSize="25sp" android:hint="Sorted Array be displayed here..." android:layout_below="@+id/input_text"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button1" android:layout_marginTop="50dp" android:layout_below="@+id/output_text" android:text="Start"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button2" android:layout_below="@+id/button1" android:text="Stop"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button3" android:layout_below="@+id/button2" android:text="Bind"/>
+
+<Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/button5" android:layout_below="@+id/button3" android:text="Sort Input Array"/>
+
+</RelativeLayout>
