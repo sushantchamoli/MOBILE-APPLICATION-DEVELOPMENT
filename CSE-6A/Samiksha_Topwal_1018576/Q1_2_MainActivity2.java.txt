@@ -1,4 +1,4 @@
-package com.example.lab3;
+package com.example.MyApplicationQ2;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
