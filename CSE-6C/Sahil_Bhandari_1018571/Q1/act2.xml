@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/name_displayed_here"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/tv2"/>
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="Age will be displayed"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:id="@+id/tv3"
+        android:layout_marginBottom="10dp"
+        android:layout_margin="10dp"/>
+
+</LinearLayout>
