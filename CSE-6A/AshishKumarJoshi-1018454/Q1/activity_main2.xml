@@ -1,7 +1,3 @@
-//Ashish Kumar Joshi
-//1018454
-
-
 
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -37,5 +33,3 @@
         app:layout_constraintVertical_bias="0.302" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
-//Ashish Kumar Joshi
-//1018454
