@@ -1,3 +1,5 @@
+//Devesh Kumar Srivastav
+
 package com.example.localboundservice;
 
 import android.app.Service;
@@ -14,10 +16,6 @@ import java.util.Collections;
 
 public class MyService extends Service {
 
-    /**
-     * Name: Arvind Singh
-     * RollNo: 1018451
-     */
 
     private IBinder myBinder = new MyBinder();
     private boolean isRandomGeneratorFlag = false;
