@@ -1,4 +1,4 @@
-//Aniruddh semalty Roll_No-1018442 Sec -A
+<!--Aniruddh semalty Roll_No-1018442 Sec -A-->
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -28,7 +28,7 @@
         android:layout_below="@+id/input_text"
         android:id="@+id/output_text"
         />
-
+<!--Aniruddh semalty Roll_No-1018442 Sec -A-->
     <Button
         android:layout_marginTop="50dp"
         android:id="@+id/button1"
@@ -63,4 +63,4 @@
         />
 
 </RelativeLayout>
-//Aniruddh semalty Roll_No-1018442 Sec -A
+<!--Aniruddh semalty Roll_No-1018442 Sec -A-->
