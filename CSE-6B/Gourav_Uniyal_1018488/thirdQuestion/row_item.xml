@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * Name - Gourav Uniyal
+    * Section - B
+    * Roll no - 1018488
+    * Subject - Mobile Application Development-->
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="10dp" />
