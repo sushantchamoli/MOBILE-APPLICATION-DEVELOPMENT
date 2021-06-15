@@ -17,13 +17,13 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button button1, button2, button3, button5;
-    private ArrayList<Integer> list = new ArrayList<>();
+    private Button b1, b2, b3, b5;
+    private ArrayList<Integer> num = new ArrayList<>();
     private TextView textView, textView2;
     private ServiceConnection serviceConnection = null;
     private MyService myService = null;
     private boolean isServiceBound = false;
-
+/------------------------------------------------------------
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,22 +32,22 @@ public class MainActivity extends AppCompatActivity {
     }
     private void init()
     {
-        button1 = (Button) findViewById(R.id.button1);
-        button2 = (Button) findViewById(R.id.button2);
-        button3 = (Button) findViewById(R.id.button3);
-        button5 = (Button) findViewById(R.id.button5);
+        b1 = (Button) findViewById(R.id.button1);
+        b2 = (Button) findViewById(R.id.button2);
+        b3 = (Button) findViewById(R.id.button3);
+        b5 = (Button) findViewById(R.id.button5);
         textView = (TextView) findViewById(R.id.input_text);
         textView2 = (TextView) findViewById(R.id.output_text);
         listener();
-        list.add(23);
-        list.add(9);
-        list.add(21);
-        list.add(92);
-        list.add(79);
-        list.add(35);
+        num.add(23);
+        num.add(9);
+        num.add(21);
+        num.add(92);
+        num.add(79);
+        num.add(35);
 
         String str = "Input Array:  ";
-        for(Integer temp: list)
+        for(Integer temp: num)
         {
             str += temp+" ";
         }
@@ -109,16 +109,13 @@ public class MainActivity extends AppCompatActivity {
     {
         if(isServiceBound)
         {
-            myService.sort(list);
+            myService.sort(num);
             String str ="";
-            for(Integer temp: list)
+            for(Integer temp: num)
             {
                 str += temp+" ";
             }
             textView2.setText(str);
-        }
-        else{
-            textView2.setText("Start Service and Bind it first");
         }
     }
 }
