@@ -1,6 +1,4 @@
-package com.example.lab3;
-
-package com.example.practical1g;
+package com.example.MyApplicationQ2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
