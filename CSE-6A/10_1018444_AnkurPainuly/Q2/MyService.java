@@ -17,7 +17,6 @@ public class MyService extends Service {
     //ankur painuly:1018444
 
     private IBinder myBinder = new MyBinder();
-    private boolean isRandomGeneratorFlag = false;
     private int randomNumber;
     private final int START = 1;
     private final int END = 10;
