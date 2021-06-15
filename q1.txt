@@ -1,0 +1,178 @@
+MainActivity.java
+
+package com.example.manishaapp;
+
+import android.content.Intent;
+import android.os.Bundle;
+
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+
+import android.view.View;
+
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class MainActivity extends AppCompatActivity {
+
+    TextView name, email, age, password;
+    EditText name1,email1,age1, password1;
+    Button submit;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        name=(TextView) findViewById(R.id.name);
+        email=(TextView) findViewById(R.id.email);
+        age=(TextView) findViewById(R.id.age);
+        password=(TextView) findViewById(R.id.password);
+        name1= (EditText) findViewById(R.id.name1);
+        email1= (EditText) findViewById(R.id.email1);
+        age1= (EditText) findViewById(R.id.age1);
+        password1= (EditText) findViewById(R.id.password1);
+        submit=(Button) findViewById(R.id.submit);
+
+
+        submit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               
+	 Intent intent=new Intent(MainActivity.this, Login.class);
+intent.putExtra("name",input.getText().toString()
+                startActivity(intent);
+            }
+        });
+
+    }}
+
+
+Activity_main.xml
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="58dp"
+        android:layout_height="51dp"
+        android:padding="10dp"
+        android:text="name"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:layout_editor_absoluteX="13dp"
+        tools:layout_editor_absoluteY="27dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/name1"
+        android:layout_width="286dp"
+        android:layout_height="69dp"
+        android:text="username"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="20dp" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter age"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+    <EditText
+        android:id="@+id/age1"
+        android:layout_width="292dp"
+        android:layout_height="51dp"
+        android:text="age"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:text="email"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="179dp" />
+
+    <EditText
+        android:id="@+id/email1"
+        android:layout_width="289dp"
+        android:layout_height="56dp"
+        android:text="Email address"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/email1"
+        android:text="password"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="286dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="286dp"
+        android:layout_height="64dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="password"
+        app:layout_editor_absoluteX="153dp"
+        app:layout_editor_absoluteY="96dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        app:layout_editor_absoluteX="280dp"
+        app:layout_editor_absoluteY="243dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="354dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+  

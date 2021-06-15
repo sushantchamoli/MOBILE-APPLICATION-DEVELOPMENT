@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RecyclerView</string>
+    <string-array name="country">
+        <item>India</item>
+        <item>Russia</item>
+    </string-array>
+    <string-array name="description">
+        <item>This is a Map of India</item>
+        <item>This is a Map of Russia</item>
+    </string-array>
+</resources>
