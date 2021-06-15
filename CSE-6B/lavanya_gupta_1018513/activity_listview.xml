@@ -4,10 +4,11 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 android:orientation="vertical">
 
-<ListView
-android:id="@+id/simpleListView"
+<TextView
+android:id="@+id/textView"
 android:layout_width="fill_parent"
 android:layout_height="wrap_content"
-android:divider="@color/material_blue_grey_800"
-android:dividerHeight="1dp" />
+android:layout_gravity="center"
+android:padding="@dimen/activity_horizontal_margin"
+android:textColor="@color/black" />
 </LinearLayout>
