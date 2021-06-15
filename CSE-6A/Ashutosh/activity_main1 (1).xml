@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayoutxmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".FirstActivity">
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+app:layout_constraintGuide_begin="155dp" />
+
+<TextView
+android:id="@+id/name"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Name"
+app:layout_constraintEnd_toStartOf="@+id/guideline2"
+app:layout_constraintHorizontal_bias="0.485"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+<TextView
+android:id="@+id/email"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Email"
+app:layout_constraintEnd_toStartOf="@+id/guideline2"
+app:layout_constraintHorizontal_bias="0.478"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+<TextView
+android:id="@+id/age"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text=" Age "
+app:layout_constraintEnd_toStartOf="@+id/guideline2"
+app:layout_constraintHorizontal_bias="0.468"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
+<TextView
+android:id="@+id/password"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Password"
+app:layout_constraintEnd_toStartOf="@+id/guideline2"
+app:layout_constraintHorizontal_bias="0.531"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="@+id/guideline14" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+app:layout_constraintGuide_begin="395dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+app:layout_constraintGuide_begin="20dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="58dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline6"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="694dp" />
+
+<androidx.constraintlayout.widget.Barrier
+android:id="@+id/barrier2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:barrierDirection="top"
+app:constraint_referenced_ids="null,name"
+tools:layout_editor_absoluteY="731dp" />
+
+<androidx.constraintlayout.widget.Barrier
+android:id="@+id/barrier3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:barrierDirection="top"
+app:constraint_referenced_ids="null,email"
+tools:layout_editor_absoluteY="731dp" />
+
+<androidx.constraintlayout.widget.Barrier
+android:id="@+id/barrier4"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:barrierDirection="top"
+app:constraint_referenced_ids="null,age"
+tools:layout_editor_absoluteY="731dp" />
+
+<androidx.constraintlayout.widget.Barrier
+android:id="@+id/barrier5"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+app:barrierDirection="top"
+app:constraint_referenced_ids="null,password"
+tools:layout_editor_absoluteY="731dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline7"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="20dp" />
+
+<EditText
+android:id="@+id/etname"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textPersonName"
+app:layout_constraintStart_toStartOf="@+id/guideline2"
+app:layout_constraintTop_toTopOf="@+id/guideline11" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline8"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="20dp" />
+
+<EditText
+android:id="@+id/etemail"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textEmailAddress"
+app:layout_constraintStart_toStartOf="@+id/guideline2"
+app:layout_constraintTop_toTopOf="@+id/guideline12" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline9"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="20dp" />
+
+<EditText
+android:id="@+id/etage"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="number"
+app:layout_constraintStart_toStartOf="@+id/guideline2"
+app:layout_constraintTop_toTopOf="@+id/guideline13" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline10"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="20dp" />
+
+<EditText
+android:id="@+id/etpass"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:ems="10"
+android:inputType="textPassword"
+app:layout_constraintStart_toStartOf="@+id/guideline2"
+app:layout_constraintTop_toTopOf="@+id/guideline14" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline11"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="193dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline12"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="274dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline13"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="350dp" />
+
+<androidx.constraintlayout.widget.Guideline
+android:id="@+id/guideline14"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+app:layout_constraintGuide_begin="429dp" />
+
+<Button
+android:id="@+id/submit"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginBottom="144dp"
+android:text="Submit"
+app:layout_constraintBottom_toTopOf="@+id/guideline6"
+app:layout_constraintEnd_toStartOf="@+id/guideline3"
+app:layout_constraintHorizontal_bias="0.472"
+app:layout_constraintStart_toStartOf="@+id/guideline4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
