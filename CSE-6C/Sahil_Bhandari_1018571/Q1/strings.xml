@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">question1LabPractical</string>
+    <string name="name_displayed_here">Name</string>
+    <string name="exit">Exit</string>
+    <string name="activity_2">Second Activity</string>
+    <string name="enter_first_name">First Name</string>
+
+</resources>
